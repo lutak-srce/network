@@ -11,7 +11,7 @@ TYPE=<%= @type %>
 <% end -%>
 <% if !@ethtool_opts.empty? %>ETHTOOL_OPTS="<%= @ethtool_opts %>"
 <% end -%>
-<% if !@mtu.empty?          %>MTU=<%= mtu %>
+<% if !@mtu.empty?          %>MTU=<%= @mtu %>
 <% end -%>
 # ip address settings
 <% if !@ipaddress.empty?    %>IPADDR=<%= @ipaddress %>
